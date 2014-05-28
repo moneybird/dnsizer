@@ -63,7 +63,7 @@ func main() {
 	for {
 		select {
 		case s := <-sig:
-			log.Fatalf("Signal (%d) received, stopping\n", s)
+			log.Fatalf("Signal (%s) received, stopping\n", s)
 		}
 	}
 }
