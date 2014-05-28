@@ -36,7 +36,6 @@ func handleResponse(w dns.ResponseWriter, r *dns.Msg) {
 }
 
 func main() {
-
 	flag.Parse()
 
 	sig := make(chan os.Signal)
