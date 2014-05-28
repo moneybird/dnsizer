@@ -12,7 +12,7 @@ nameserver 33.33.33.10
 port 53
 ```
 
-When we start the binary on your machine with `dnsizer -addr=:53 -domain=dev -ip=33.33.33.10` all the requests to *.dev will be served by 33.33.33.10, without manually adjusting our hostfile.
+When we start the binary on our machine with `dnsizer -addr=:53 -domain=dev -ip=33.33.33.10` all the requests to *.dev will be served by 33.33.33.10, without manually adjusting our hostfile.
 
 Installation
 ------------
