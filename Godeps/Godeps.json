@@ -1,0 +1,10 @@
+{
+	"ImportPath": "github.com/moneybird/dnsizer",
+	"GoVersion": "go1.3",
+	"Deps": [
+		{
+			"ImportPath": "github.com/miekg/dns",
+			"Rev": "060e66250e3122423f662e4c486690f08d853ccf"
+		}
+	]
+}
